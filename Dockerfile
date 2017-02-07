@@ -3,7 +3,7 @@
 # Chris Weyl <chris.weyl@dreamhost.com> 2016
 
 FROM alpine:3.3
-MAINTAINER Chris Weyl <chris.weyl@dreamhost.com>
+MAINTAINER Chris Weyl <cweyl@alumni.drew.edu>
 
 ADD cpanm /
 
