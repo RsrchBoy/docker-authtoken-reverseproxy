@@ -14,7 +14,7 @@ RUN apk add --update \
         perl perl-plack perl-lwp-protocol-https perl-canary-stability \
         perl-extutils-helpers perl-extutils-config perl-extutils-installpaths \
         perl-module-build-tiny perl-path-tiny \
-        perl-http-message perl-anyevent-http \
+        perl-http-message \
     && rm -rf /var/cache/apk/*
 
 # line 3 of Perl pkgs: Plack::App::Proxy deps
